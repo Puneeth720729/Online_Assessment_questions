@@ -1,3 +1,28 @@
+/*
+Problem: Most Frequent Digital Root
+
+Description:
+You are given an array of integers. For each number, convert it to a single-digit number
+by repeatedly summing its digits. After conversion, return the number that appears most
+frequently. If there's a tie, return the maximum number among them.
+
+Input:
+- An integer n (number of elements)
+- Followed by n space-separated integers
+
+Output:
+- The most frequent single-digit number (or the maximum one in case of tie)
+
+Example:
+Input:
+5
+99 56 73 12 18
+
+Output:
+9
+*/
+
+
 import java.util.*;
 
 public class Main {
